@@ -1,0 +1,13 @@
+.footer__input {
+    padding: 10px;
+    border: none;
+    background: #f9f9fe;
+    outline: none;
+}
+
+.footer__inputBtn {
+    background: #8f1bdc;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}

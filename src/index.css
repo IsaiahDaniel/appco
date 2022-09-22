@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --light-dark: #707b8e;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  /* width: 100%; */
+}
+
+.lg-heading {
+  font-size: 64px;
+}
+
+.md-heading {
+  font-size: 40px;
+}
+
+.btn {
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+}
+
+.btn-primary {
+  background: var(--pink);
+}
+
+.btn-inverse {
+  background: #712fda;
+}
+/* Text Styles */
+
+.text-white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Border styles */
+
+.border-radius-50 {
+  border-radius: 50%;
+}
+
+.border-radius--sm {
+  border-radius: 3rem;
+}
+
+.border-radius--lg {
+  border-radius: 5rem;
+}
+
+/* Margins */
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+.mr-3 {
+  margin-right: 3rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+/* Widths */
+
+.w-20 {
+  width: 20%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+/* padding */
+
+.p-5 {
+  padding: 5rem;
+}
+
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex-center-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.d-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Grid */
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media(max-width: 768px){
+
+  .d-none-sm {
+    display: none;
+  }
+
+  .d-flex-between{
+    flex-direction: column;
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
