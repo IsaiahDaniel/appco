@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/appco/static/css/main.6f18180a.css",
+    "main.js": "/appco/static/js/main.8a085c87.js",
+    "static/media/sales.webp": "/appco/static/media/sales.a2b3b3cf95577dc154c0.webp",
+    "static/media/screenshoot-2.webp": "/appco/static/media/screenshoot-2.0e3fc8628a91342bffbc.webp",
+    "static/media/screenshoot-3.webp": "/appco/static/media/screenshoot-3.ef94d4c1678c5574103c.webp",
+    "static/media/landing-image.webp": "/appco/static/media/landing-image.a27e44de46bf0a6457eb.webp",
+    "static/media/screenshoot-1.webp": "/appco/static/media/screenshoot-1.03744bf26681437d4705.webp",
+    "static/media/app-showcase.webp": "/appco/static/media/app-showcase.103d2ad63a90aea4c519.webp",
+    "static/media/bg-computer.webp": "/appco/static/media/bg-computer.16099d24b93224d28fee.webp",
+    "static/media/arrow-spring.webp": "/appco/static/media/arrow-spring.fe4a2c5c00577ada1b0b.webp",
+    "static/media/playstore.webp": "/appco/static/media/playstore.d3121534f8541c0380cd.webp",
+    "static/media/logo.webp": "/appco/static/media/logo.f1b62c3dd2c4f72398f0.webp",
+    "static/media/app-store.webp": "/appco/static/media/app-store.62cd5e1d5c271a55de8d.webp",
+    "index.html": "/appco/index.html",
+    "main.6f18180a.css.map": "/appco/static/css/main.6f18180a.css.map",
+    "main.8a085c87.js.map": "/appco/static/js/main.8a085c87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f18180a.css",
+    "static/js/main.8a085c87.js"
+  ]
+}
