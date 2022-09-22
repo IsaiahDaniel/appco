@@ -2,7 +2,7 @@
   "name": "boilerplate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://isaiahdaniel.github.io/appco/",
+  "homepage": "https://isaiahdaniel.github.io/appco",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
